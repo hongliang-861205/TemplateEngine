@@ -1,0 +1,42 @@
+!SESSION 2017-04-09 19:46:19.026 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.php.product -keyring /Users/hongliang/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.php.product -keyring /Users/hongliang/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2017-04-09 19:46:51.597
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-04-09 19:46:51.597
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY org.eclipse.core.net 1 0 2017-04-09 19:46:52.246
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2017-04-09 19:46:54.077
+!MESSAGE Darkest Dark theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2017-04-09 19:46:54.100
+!MESSAGE Darkest Dark has archived current color configurations to alternate preferences - will be restored when switching out of Darkest Dark theme
+!SESSION 2017-04-09 19:50:51.833 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.php.product -keyring /Users/hongliang/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.php.product -keyring /Users/hongliang/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-04-09 19:51:17.939
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-04-09 19:51:55.891
+!MESSAGE 在“Modifying Include Path”期间发生了内部错误。
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.internal.ui.navigator.ScriptExplorerContentProvider.executeRunnables(ScriptExplorerContentProvider.java:143)
+	at org.eclipse.php.internal.ui.explorer.PHPExplorerContentProvider.refresh(PHPExplorerContentProvider.java:510)
+	at org.eclipse.php.internal.core.includepath.IncludePathManager.refresh(IncludePathManager.java:427)
+	at org.eclipse.php.internal.core.includepath.IncludePathManager$2.runInWorkspace(IncludePathManager.java:240)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
